@@ -1,0 +1,618 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0px 402px;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: -50px;
+  right: 50px;
+  background-color: #1f334b;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+
+.back-to-top.active {
+  bottom: 50px;
+  transition: 0.4s linear;
+}
+
+.header {
+  background-color: #EEEFF1;
+  height: 100vh;
+}
+
+.header-line {
+  padding-top: 57px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-item {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+
+  margin-right: 42px;
+
+  transition: color 0.3s linear;
+}
+
+.nav-item:hover {
+  color: #3467a5;
+}
+
+.design-and-werst {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+.lorem-ipsum {
+  margin-top: 60px;
+  color: #727272;
+  font-size: 16px;
+  width: 540px;
+}
+
+.header-btn {
+  margin-top: 85px;
+}
+
+.header-button {
+  background-color: #34547A;
+  padding: 25px 41px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+
+  transition: background-color 0.2s linear;
+}
+
+.header-button:hover {
+  background-color: #182f4d;
+}
+
+.header-down {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 257px;
+}
+
+.header-frame {
+  position: relative;
+  padding-top: 20px;
+}
+
+.about-me-prime {
+  margin-top: 119px;
+}
+
+.about-me-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 32px; 
+  text-align: center; 
+  padding-bottom: 100px; 
+}
+
+.lorem-ipsum-2 {
+  margin-top: 50px;
+  color: #727272;
+  font-size: 16px;
+  text-align: center;
+  width: 50%;
+  padding-left: 25%;
+}
+
+.my-projects {
+  background-color: #34547A;
+}
+
+.imgs-projects {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.imgs-projects img {
+  margin-top: 109px;
+  margin-bottom: 113px;
+  width: 12.5%;
+}
+
+.my-skills-prime {
+  display: flex;
+  justify-content: center;
+}
+
+.skills {
+  margin-top: 204px;
+}
+
+.my-skills-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 32px; 
+  color: #000000;
+}
+
+.photoshop-text {
+  color: #727272;
+  margin-top: 54px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+
+.person-img {
+  margin-bottom: 101px;
+  margin-top: 102px;
+  width: 75%;
+  padding-left: 150px;
+}
+
+.process-img {
+  padding-bottom: 128px;
+}
+
+.process-process-img {
+  width: 100%;
+}
+
+.process {
+  background-color: #EEEFF1;
+}
+
+.process-info {
+  padding-top: 100px;
+  background-color: #EEEFF1;
+}
+
+.premany-imgs img {
+  width: 24.8%;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+}
+
+.premany-imgs {
+  padding: 0;
+}
+
+.microsoft-imgs {
+  padding-top: 72px;
+  padding-bottom: 100px;
+}
+
+.microsoft-imgs img {
+  width: 18%;
+}
+
+.microsoft-jpg {
+  margin-left: 30px;
+}
+
+.need-web-site {
+  background-color: #EEEFF1;
+}
+
+.massage {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.texts {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.massage-text {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-down {
+  padding-top: 195px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.down-button {
+  background-color: #34547A;
+  padding: 25px 41px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+
+  transition: background-color 0.2s linear;
+}
+
+.down-button:hover {
+  background-color: #182f4d;
+}
+
+.my-accounts {
+  background-color: #34547A;
+}
+
+.my-name {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.ivan-ivanov {
+  color: #fff;
+}
+
+.all-doc-private {
+  padding-top: 20px;
+  color: #fff;
+}
+
+.my-information {
+  display: flex;
+  justify-content: space-between;
+}
+
+.my-vk {
+  padding: 55px 0;
+}
+
+.burger-menu {
+  display: none;
+}
+
+.burger-slide {
+  position: absolute;
+  margin-right: auto;
+}
+
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.disp {
+  display: none;
+}
+
+@media (max-width: 1600px) {
+  .container {
+      margin: 0 200px;
+  }
+
+  .premany-imgs img {
+      width: 44%;
+  }
+
+  .premany-imgs {
+      margin-left: 10%;
+  }
+
+  .header-info {
+      margin-left: 2px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .container {
+      margin: 0 100px;
+  }
+
+  .header {
+      height: auto;
+  }
+
+  .header-down {
+      display: block;
+      margin-top: 85px;
+  }
+
+  .design-and-werst {
+      font-size: 36px;
+      padding-top: 30px;
+  }
+
+  .lorem-ipsum {
+      text-align: center;
+      width: auto;
+  }
+
+  .header-btn {
+      display: flex;
+      justify-content: center;
+      margin-top: 43px;
+      padding-bottom: 34px;
+  }
+
+  .header-frame {
+      display: flex;
+      justify-content: center;
+  }
+
+  .design-and-werst {
+      display: flex;
+      justify-content: center;
+  }
+
+  .premany-imgs img {
+      width: 24%;
+  }
+  .premany-imgs {
+      margin-left: 3%;
+  }
+}
+
+@media (max-width: 991px) {
+  .container {
+      margin: 0 100px;
+  }
+
+  .header {
+      height: auto;
+  }
+
+  .nav-item {
+      margin-right: 25px;
+  }
+
+  .header-down {
+      margin-top: 60px;
+      display: block;
+  }
+
+  .lorem-ipsum {
+      width: auto;
+      text-align: center;
+  }
+
+  .header-frame {
+      padding-top: 0;
+      display: flex;
+      justify-content: center;
+  }
+
+  .design-and-werst {
+      display: flex;
+      justify-content: center;
+  }
+
+  .header-btn {
+      display: flex;
+      justify-content: center;
+      margin-top: 0;
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+
+  .skills {
+      margin-top: 102px;
+  }
+
+  .photoshop-text {
+      margin-top: 27px;
+  }
+
+  .premany-imgs img {
+      width: 47%;
+  }
+  .premany-imgs {
+      margin-left: 5%;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+      margin: 0 50px;
+  }
+
+  .header-down {
+      display: block;
+      margin-top: auto;
+      padding-top: 40px;
+  }
+
+  .lorem-ipsum {
+      width: auto;
+      text-align: center;
+      margin-top: auto;
+      padding-top: 25px;
+  }
+
+  .header-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: auto;
+      padding-top: 25px;
+  }
+
+  .design-and-werst {
+      margin-top: auto;
+      text-align: center;
+      padding-top: 25px;
+  }
+  .img-frame {
+      width: 60%;
+  }
+
+  .my-skills-prime {
+      display: block;
+  }
+
+  .skills {
+      margin-top: auto;
+      padding-top: 90px;
+      text-align: center;
+  }
+
+  .premany-imgs img {
+      width: 47%;
+      margin-left: 9px;
+  }
+
+  .microsoft-imgs {
+      padding-bottom: 50px;
+  }
+}
+
+@media (max-width: 672px) {
+  .microsoft-imgs img {
+      width: 20%;
+  }
+
+  .microsoft-jpg {
+      margin-left: 15px;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+      margin: 0 7px;
+  }
+
+  .design-and-werst {
+      margin-top: 10px;
+      text-align: center;
+  }
+
+  .header-down {
+      display: block;
+      margin-top: 50px;
+  }
+
+  .lorem-ipsum {
+      width: auto;
+      text-align: center;
+  }
+
+  .imgs-projects {
+      display: block;
+  }
+
+  .imgs-projects img {
+      width: auto;
+  }
+
+  .header-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 55px;
+  }
+
+  .my-skills-prime {
+      display: block;
+  }
+
+  .premany-imgs img {
+      width: 95%;
+      margin-left: 1%;
+  }
+
+  .microsoft-imgs img {
+      width: 90%;
+  }
+
+  .img-frame {
+      width: 60%;
+      margin-left: 23px;
+  }
+  .my-information {
+      display: block;
+  }
+
+  .my-vk {
+      padding-top: 0;
+      padding-bottom: 22px;
+  }
+
+  .person-img {
+      padding-left: 15%;
+  }
+}
+
+@media (max-width: 375px) {
+  .container {
+      margin: 0 15px;
+  }
+
+  .header {
+      height: auto;
+  }
+
+  .header-frame {
+      padding-top: 0;
+  }
+
+  .design-and-werst {
+      margin-top: 10px;
+      text-align: center;
+  }
+
+  .header-down {
+      display: block;
+      margin-top: 50px;
+  }
+
+  .lorem-ipsum {
+      margin-top: 0;
+      width: auto;
+      text-align: center;
+      padding: 10px 0;
+  }
+
+  .imgs-projects {
+      display: block;
+  }
+
+  .imgs-projects img {
+      width: 80%;
+  }
+
+  .header-btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .burger-menu {
+      display: block;
+  }
+  .nav {
+      display: none;
+  }
+}
+
+.block {
+  display: block;
+}
